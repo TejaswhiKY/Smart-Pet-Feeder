@@ -3,7 +3,7 @@
 🎯 Project Overview
 
  A Smart Pet Feeder built using Arduino that automatically and manually dispenses pet food using a servo motor. The system is simple, reliable, and designed with future upgrades like GSM mobile alerts in mind.
-
+➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖
 🌟 Key Highlights
 
   ✅ Automatic feeding at fixed intervals
@@ -15,7 +15,7 @@
   ⚡ Beginner-friendly Arduino project
   
   📱 GSM alert support planned for future
-
+➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖
 🧰 Hardware Components
 
   🧠 Arduino Uno / ESP32
@@ -27,7 +27,7 @@
   🔌 Jumper Wires
   
   🔋 5V Power Supply
-
+➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖
 🔌 Pin Configuration
 
 🦾 Servo Motor Connections
@@ -52,7 +52,7 @@
 | 🔴 Anode (+)  | D5 (via 220Ω resistor) |
 | ⚫ Cathode (−) | GND                    |
 
-
+➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖
 
 ⚙️ How It Works
 
@@ -63,13 +63,13 @@
    🔹 Button press triggers instant manual feeding
 
    🔹 Designed to add GSM module for SMS alerts in future
-
+➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖
 🧪 Simulation & Testing
 
   🔹 Simulated using Wokwi Arduino Simulator
 
    🔹 Can be directly implemented on real hardware
-
+➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖
 🚀 Future Enhancements
 
   🔹 GSM module for mobile SMS alerts
@@ -79,3 +79,4 @@
  🔹 LCD display for status updates
 
 🔹 Food level detection sensors
+➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖
