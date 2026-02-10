@@ -1,65 +1,51 @@
-🐾 Smart Pet Feeder using Arduino
+🐾✨ Smart Pet Feeder using Arduino ✨🐾
 
-📌 Description
+🎯 Project Overview
 
-A Smart Pet Feeder using Arduino that automatically and manually dispenses pet food using a servo motor, with provision for future mobile alerts using a GSM module.
+🐶🍽️ A Smart Pet Feeder built using Arduino that automatically and manually dispenses pet food using a servo motor. The system is simple, reliable, and designed with future upgrades like GSM mobile alerts in mind.
 
-🚀 Features
+🌟 Key Highlights
 
-Automatic food dispensing
+✅ Automatic feeding at fixed intervals
+🔘 Manual feeding using push button
+🦾 Servo motor controlled food dispenser
+⚡ Beginner-friendly Arduino project
+📱 GSM alert support planned for future
 
-Manual feeding using push button
+🧰 Hardware Components
 
-Servo motor controlled feeder
+🧠 Arduino Uno / ESP32
+🦾 Servo Motor (SG90)
+🔘 Push Button
+🍞 Breadboard
+🔌 Jumper Wires
+🔋 5V Power Supply
 
-Simple Arduino-based design
+🔌 Pin Configuration
+🦾 Servo Motor Connections
+🔧 Servo Wire	📍 Arduino Pin
+🟡 Signal	D9
+🔴 VCC	5V
+⚫ GND	GND
+🔘 Push Button Connections
+🔧 Button Pin	📍 Arduino Pin
+🟢 Signal	D4
+⚫ GND	GND
+⚙️ How It Works
 
-📱 GSM module support planned for future mobile alerts
+🔹 System starts with feeder in closed position
+🔹 Servo rotates at fixed time intervals to release food
+🔹 Button press triggers instant manual feeding
+🔹 Designed to add GSM module for SMS alerts in future
 
-🧰 Components Required (Current Setup)
+🧪 Simulation & Testing
 
-Arduino Uno / ESP32
+🖥️ Simulated using Wokwi Arduino Simulator
+🔧 Can be directly implemented on real hardware
 
-Servo Motor (SG90)
+🚀 Future Enhancements
 
-Push Button
-
-Breadboard
-
-Jumper Wires
-
-5V Power Supply
-
-🔌 Pin Connections
-Servo Motor
-Servo Wire	Arduino Pin
-Signal	D9
-VCC	5V
-GND	GND
-Push Button
-Button Pin	Arduino Pin
-Signal	D4
-GND	GND
-⚙️ Working
-
-The servo motor remains closed initially
-
-Food is dispensed automatically at fixed intervals
-
-Manual feeding is done using a push button
-
-System is designed to support future GSM-based SMS alerts
-
-🧪 Simulation
-
-This project can be simulated using Wokwi Arduino Simulator.
-
-📈 Future Enhancements
-
-📱 GSM module for SMS alerts
-
-⏰ RTC-based feeding schedule
-
-📟 LCD display
-
-🍽️ Food level detection
+📱 GSM module for mobile SMS alerts
+⏰ RTC for real-time feeding schedule
+📟 LCD display for status updates
+🍽️ Food level detection sensors
