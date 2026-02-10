@@ -5,7 +5,7 @@
  A Smart Pet Feeder built using Arduino that automatically and manually dispenses pet food using a servo motor. The system is simple, reliable, and designed with future upgrades like GSM mobile alerts in mind.
 
  
-➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖
+➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖
 
 
 🌟 Key Highlights
