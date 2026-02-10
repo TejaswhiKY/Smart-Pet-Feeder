@@ -7,18 +7,25 @@
 🌟 Key Highlights
 
   ✅ Automatic feeding at fixed intervals
+  
   🔘 Manual feeding using push button
+  
   🦾 Servo motor controlled food dispenser
+  
   ⚡ Beginner-friendly Arduino project
+  
   📱 GSM alert support planned for future
 
 🧰 Hardware Components
 
   🧠 Arduino Uno / ESP32
+  
   🦾 Servo Motor (SG90)
+  
   🔘 Push Button
-  🍞 Breadboard
+  
   🔌 Jumper Wires
+  
   🔋 5V Power Supply
 
 🔌 Pin Configuration
@@ -49,26 +56,26 @@
 
 ⚙️ How It Works
 
-  🔹 System starts with feeder in closed position
+   🔹 System starts with feeder in closed position
 
-  🔹 Servo rotates at fixed time intervals to release food
+   🔹 Servo rotates at fixed time intervals to release food
 
-  🔹 Button press triggers instant manual feeding
+   🔹 Button press triggers instant manual feeding
 
-  🔹 Designed to add GSM module for SMS alerts in future
+   🔹 Designed to add GSM module for SMS alerts in future
 
 🧪 Simulation & Testing
 
-  🖥️ Simulated using Wokwi Arduino Simulator
+   🖥️ Simulated using Wokwi Arduino Simulator
 
-  🔧 Can be directly implemented on real hardware
+   🔧 Can be directly implemented on real hardware
 
 🚀 Future Enhancements
 
-  📱 GSM module for mobile SMS alerts
+   📱 GSM module for mobile SMS alerts
 
-  ⏰ RTC for real-time feeding schedule
+   ⏰ RTC for real-time feeding schedule
 
-  📟 LCD display for status updates
+   📟 LCD display for status updates
 
-  🍽️ Food level detection sensors
+   🍽️ Food level detection sensors
