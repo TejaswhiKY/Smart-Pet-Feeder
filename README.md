@@ -50,18 +50,25 @@
 ⚙️ How It Works
 
 🔹 System starts with feeder in closed position
+
 🔹 Servo rotates at fixed time intervals to release food
+
 🔹 Button press triggers instant manual feeding
+
 🔹 Designed to add GSM module for SMS alerts in future
 
 🧪 Simulation & Testing
 
 🖥️ Simulated using Wokwi Arduino Simulator
+
 🔧 Can be directly implemented on real hardware
 
 🚀 Future Enhancements
 
 📱 GSM module for mobile SMS alerts
+
 ⏰ RTC for real-time feeding schedule
+
 📟 LCD display for status updates
+
 🍽️ Food level detection sensors
