@@ -22,15 +22,31 @@
 🔋 5V Power Supply
 
 🔌 Pin Configuration
+
 🦾 Servo Motor Connections
-🔧 Servo Wire	📍 Arduino Pin
-🟡 Signal	D9
-🔴 VCC	5V
-⚫ GND	GND
+
+| 🔧 Servo Wire | 📍 Arduino Pin |
+| ------------- | -------------- |
+| 🟡 Signal     | D9             |
+| 🔴 VCC        | 5V             |
+| ⚫ GND         | GND            |
+
 🔘 Push Button Connections
-🔧 Button Pin	📍 Arduino Pin
-🟢 Signal	D4
-⚫ GND	GND
+
+| 🔧 Button Pin | 📍 Arduino Pin |
+| ------------- | -------------- |
+| 🟢 Signal     | D4             |
+| ⚫ GND         | GND            |
+
+💡 LED Connections
+
+| 🔧 LED Pin    | 📍 Arduino Pin         |
+| ------------- | ---------------------- |
+| 🔴 Anode (+)  | D5 (via 220Ω resistor) |
+| ⚫ Cathode (−) | GND                    |
+
+
+
 ⚙️ How It Works
 
 🔹 System starts with feeder in closed position
