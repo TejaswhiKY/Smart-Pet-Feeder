@@ -1,0 +1,47 @@
+#include <Servo.h>
+
+// -------- PIN DEFINITIONS ----------
+#define BUTTON_PIN 2
+#define LED_PIN 7
+#define SERVO_PIN 9
+
+// -------- OBJECT ----------
+Servo feeder;
+
+// -------- STATES ----------
+bool feeding = false;
+
+void feedPet() {
+  Serial.println("Feeding started...");
+  digitalWrite(LED_PIN, HIGH);   // LED ON
+
+  feeder.write(90);              // Open feeder
+  delay(1000);                   // 1 second open
+  feeder.write(0);               // Close feeder
+
+  digitalWrite(LED_PIN, LOW);    // LED OFF
+  Serial.println("Feeding completed successfully ✅");
+}
+
+void setup() {
+  Serial.begin(9600);
+
+  pinMode(BUTTON_PIN, INPUT_PULLUP); // IMPORTANT
+  pinMode(LED_PIN, OUTPUT);
+
+  feeder.attach(SERVO_PIN);
+  feeder.write(0); // Feeder closed
+
+  Serial.println("Smart Pet Feeder Ready");
+  Serial.println("Press the push button to feed");
+}
+
+void loop() {
+  // Button press detection
+  if (digitalRead(BUTTON_PIN) == LOW && !feeding) {
+    feeding = true;      // prevent multiple triggers
+    feedPet();
+    delay(300);          // small debounce delay
+    feeding = false;
+  }
+}
