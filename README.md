@@ -83,16 +83,6 @@
 ➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖
 
 
-🧪 Simulation & Testing
-
-  🔹 Simulated using Wokwi Arduino Simulator
-
-   🔹 Can be directly implemented on real hardware
-
-   
-➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖
-
-
 🚀 Future Enhancements
 
   🔹 GSM module for mobile SMS alerts
@@ -104,4 +94,13 @@
 🔹 Food level detection sensors
 
 
+➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖
+
+🧪 Simulation & Testing
+
+  🔹 Simulated using Wokwi Arduino Simulator
+
+   🔹 Can be directly implemented on real hardware
+
+   
 ➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖
